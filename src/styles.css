@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+input[type=checkbox]:checked + label {
+    color: red;
+    text-decoration: line-through;
+    text-align: center;
+    text-decoration-color: blueviolet;
+}
+
+body {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+section.todoapp {
+    outline-style: ridge;
+    outline-color: royalblue;
+    margin-right: 20px;
+}
+
+section.main {
+    outline-style: ridge;
+    outline-color: blueviolet;
+    margin-right: 20px;
+}
+.myIcon {
+    margin-left: 10px;
+    padding-left: 5px;
+}
